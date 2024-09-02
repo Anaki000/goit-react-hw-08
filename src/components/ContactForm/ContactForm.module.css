@@ -1,0 +1,44 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #000;
+  padding: 15px;
+  width: 330px;
+}
+
+.contactInput {
+  border: 2px solid #000;
+  margin-top: 5px;
+  padding: 8px 0px 8px 2px;
+}
+
+.contactInput:hover {
+  border-color: teal;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contactNumber {
+  display: block;
+  margin-top: 15px;
+}
+
+.error {
+  color: red;
+  margin-top: 5px;
+}
+
+.formBtn {
+  background-color: #000;
+  color: #fff;
+  /* width: 130px; */
+  padding: 8px 15px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.formBtn:hover,
+.formBtn:focus,
+.formBtn:active {
+  background-color: green;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
